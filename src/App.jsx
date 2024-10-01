@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Product from './components/Product';
-import CartModal from './components/CartModal';
+import Navbar from './Components/Navbar';
+import Product from './Components/Product';
+import CartModal from './Components/CartModal';
 
 function App() {
   const [products, setProducts] = useState([]);
