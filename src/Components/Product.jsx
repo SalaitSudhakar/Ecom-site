@@ -2,7 +2,7 @@ import React from 'react';
 
 const Product = ({ product, addToCart }) => {
   return (
-    <div className="border-2 shadow-md p-4 rounded-md hover:scale-105">
+    <div className="border-2 shadow-md p-4 rounded-md hover:scale-105 bg-white bg-opacity-45">
       <img src={product.image} alt={product.title} className="w-full h-64 object-contain mb-4" />
       <h2 className="text-lg font-bold">{product.title}</h2>
       <p className="text-gray-600">${product.price}</p>
